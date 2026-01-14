@@ -6,7 +6,6 @@ const PORT = 8001;
 // Middleware to parse JSON request bodies
 app.use(express.json());
 
-// In-memory task storage
 let tasks = [
     "Write a diary entry from the future",
     "Create a time machine from a cardboard box",
